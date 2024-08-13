@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  width: 100%;
+}
+
+body
+{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.btn_text {
+  text-transform: capitalize;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+
+
+

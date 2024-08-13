@@ -1,29 +1,33 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <div class="main" id="app">
+    <Home />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import Home from "./components/Home.vue";
 
 export default Vue.extend({
   name: "App",
   components: {
-    HelloWorld,
+    Home,
   },
 });
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped lang="scss">
+.main {
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top left, #454545, transparent 55%),
+              radial-gradient(circle at bottom right, #454545, transparent 55%),
+              black;
+  background-blend-mode: normal;
+  color: #C2C2C6;
 }
 </style>
