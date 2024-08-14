@@ -24,8 +24,8 @@ export default Vue.extend({
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(circle at top left, #454545, transparent 55%),
-              radial-gradient(circle at bottom right, #454545, transparent 55%),
+  background: radial-gradient(circle at top left, #454545, transparent 30%),
+              radial-gradient(circle at bottom right, #454545, transparent 30%),
               black;
   background-blend-mode: normal;
   color: #C2C2C6;
