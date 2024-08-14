@@ -138,6 +138,7 @@ export default Vue.extend({
 
       if (Object.keys(this.errors).length === 0) {
         console.log('Дані валідні:', this.formData);
+        this.formData.name = this.formData.email = this.formData.phoneNumber = ''
       }
     }
   },
