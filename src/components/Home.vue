@@ -70,7 +70,11 @@
                 <span class="btn_text">Continue</span>
               </v-btn>
 
-              <v-btn class="btn home__btn" block elevation="2" large>
+              <v-btn 
+                class="btn home__btn" 
+                block elevation="2" 
+                large
+              >
                 <span class="btn_text">I have an account</span>
               </v-btn>
             </div>
@@ -140,7 +144,10 @@ export default Vue.extend({
         console.log('Дані валідні:', this.formData);
         this.formData.name = this.formData.email = this.formData.phoneNumber = ''
       }
-    }
+    },
+    // goToPage(path: string) {
+    //   this.$router.push('/target-page');
+    // }
   },
 });
 </script>
